@@ -1,0 +1,8 @@
+h1. GU
+
+This is a sample application using google search api to search and show the results from searches.
+The idea was to implement a better native ui for android instead of using the browser.
+
+h2. Notes
+
+Please do not use this code straight away, need to be check has is a prototype and is old.
