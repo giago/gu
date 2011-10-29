@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+   xmlns:a="http://schemas.android.com/apk/res/android"
+   package="org.chickymate.gu"
+   a:versionCode="2"
+   a:versionName="1.1">
+   <application
+      a:icon="@drawable/ic_launcher"
+      a:label="@string/app_name"
+      a:theme="@style/Gu">
+      <!-- ======= Activities ======== -->
+<!--       <activity -->
+<!--          a:name=".activity.Search" -->
+<!--          a:launchMode="singleTop"> -->
+<!--          <intent-filter> -->
+<!--             <action -->
+<!--                a:name="android.intent.action.MAIN" /> -->
+<!--             <category -->
+<!--                a:name="android.intent.category.LAUNCHER" /> -->
+<!--          </intent-filter> -->
+<!--       </activity> -->
+      <activity
+         a:name=".activity.ResultsSearchActivityCoordinatorImpl"
+         a:launchMode="singleTop"
+         a:configChanges="orientation" a:alwaysRetainTaskState="true">
+         <intent-filter>
+                     <action
+               a:name="android.intent.action.MAIN" />
+            <category
+               a:name="android.intent.category.LAUNCHER" />
+         </intent-filter>
+      </activity>
+      <activity
+         a:name=".activity.Feedbacks"
+         a:launchMode="singleTop"
+         a:configChanges="orientation" a:alwaysRetainTaskState="true">
+      </activity>
+      
+      <!-- ======= Providers ======== -->
+      <provider
+		 a:name=".provider.GuProvider"
+         a:authorities="org.chickymate.gu" />
+      <!-- ======= Services ======== -->
+      <service
+ 			a:name=".service.GuService">
+         <intent-filter>
+            <action
+               a:name="org.chickymate.gu.HTTP_REQUEST" />
+            <data
+               a:scheme="http" />
+         </intent-filter>
+      </service>
+   </application>
+   <uses-sdk
+      a:minSdkVersion="7" />
+   <uses-permission
+      a:name="android.permission.INTERNET" />
+   <uses-permission 
+      a:name="android.permission.ACCESS_NETWORK_STATE"/>
+</manifest>

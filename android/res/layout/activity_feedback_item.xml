@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+   xmlns:a="http://schemas.android.com/apk/res/android"
+   style="@style/FillHorizontaly.VerticalOrientation"
+   a:padding="5dp"
+   a:id="@+id/list_item">
+   <LinearLayout
+      style="@style/FillHorizontaly">
+      <ImageView
+         a:layout_width="20dp"
+         a:layout_height="20dp"
+         a:src="@drawable/emo_im_winking"
+         a:focusable="false"
+         a:focusableInTouchMode="false"
+        
+         a:textSize="10sp"
+         a:paddingLeft="3dp"
+         a:paddingRight="3dp" />
+      <TextView
+         a:id="@+id/feedback_title"
+         style="@style/Wrap"
+         a:textColor="@color/siteVisited"
+         a:textStyle="bold"
+         a:focusable="false"
+         a:focusableInTouchMode="false" />
+   </LinearLayout>
+   <TextView
+      a:id="@+id/feedback_description"
+      style="@style/FillHorizontaly"
+      a:textColor="@color/black"
+      a:layout_below="@id/feedback_title"
+      a:focusable="false"
+      a:focusableInTouchMode="false" />
+   <TextView
+      a:id="@+id/feedback_result_url"
+      style="@style/FillHorizontaly"
+      a:layout_below="@id/feedback_description"
+      a:textColor="@color/green"
+      a:textStyle="bold"
+      a:focusable="false"
+      a:focusableInTouchMode="false" />
+</LinearLayout>

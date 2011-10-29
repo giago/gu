@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GU</string>
+    <string name="feedback_button_text">Remind me?</string>
+    <string name="cool_message">cool</string>
+    <string name="menu_item_info">info</string>
+    <string name="luigi_description">The mind</string>
+    <string name="lalla_description">The boss</string>
+    <string name="andrea_description">The arm</string>
+    <string name="info_description">We built this app to make the usage of the google search results easier to navigate through. Hopefully you will like it as well. In any case you are welcome to send us feedbacks.</string>
+    <string name="info_description_service">NOTE : The app is using an open api of google and we CANNOT guarantee the results of the searches, and the reliability of the service or the app itself.</string>
+    <string name="info_dialog_title">The ChickyMate Team</string>
+    <string name="menu_item_feedback_list">feedback list</string>
+    <string name="manage_feedback">Manage remember me</string>
+    <string name="remove_feedback">Remove</string>
+    <string name="activity_feedback_empty_list">No feedback stored yet!</string>
+    <string name="feedbaksListTitle">Feedbacks</string>
+</resources>

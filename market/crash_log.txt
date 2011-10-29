@@ -1,0 +1,93 @@
+:Monkey: seed=1 count=10000000
+:AllowPackage: org.chickymate.gu
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+// Selecting main activities from category android.intent.category.LAUNCHER
+//   + Using main activity org.chickymate.gu.activity.Search (from package org.chickymate.gu)
+// Selecting main activities from category android.intent.category.MONKEY
+// Seeded: 1
+// Event percentages:
+//   0: 15.0%
+//   1: 10.0%
+//   2: 15.0%
+//   3: 25.0%
+//   4: 15.0%
+//   5: 2.0%
+//   6: 2.0%
+//   7: 1.0%
+//   8: 15.0%
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10000000;component=org.chickymate.gu/.activity.Search;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=org.chickymate.gu/.activity.Search } in package org.chickymate.gu
+Sleeping for 500 milliseconds
+:Sending Pointer ACTION_MOVE x=-3.0 y=-5.0
+:Sending Pointer ACTION_MOVE x=-5.0 y=-4.0
+:Sending Pointer ACTION_MOVE x=1.0 y=-2.0
+:Sending Pointer ACTION_MOVE x=1.0 y=-2.0
+:Sending Pointer ACTION_MOVE x=4.0 y=3.0
+:Sending Pointer ACTION_MOVE x=2.0 y=4.0
+:Sending Pointer ACTION_MOVE x=-5.0 y=3.0
+:Sending Pointer ACTION_MOVE x=2.0 y=0.0
+:Sending Pointer ACTION_MOVE x=0.0 y=1.0
+:Sending Pointer ACTION_MOVE x=-5.0 y=-4.0
+:SendKey (ACTION_DOWN): 9    // KEYCODE_2
+:SendKey (ACTION_UP): 9    // KEYCODE_2
+Sleeping for 500 milliseconds
+:Sending Pointer ACTION_DOWN x=251.0 y=355.0
+:Sending Pointer ACTION_MOVE x=256.0 y=353.0
+:Sending Pointer ACTION_MOVE x=256.0 y=357.0
+:Sending Pointer ACTION_MOVE x=261.0 y=353.0
+:Sending Pointer ACTION_MOVE x=257.0 y=356.0
+:Sending Pointer ACTION_UP x=257.0 y=356.0
+Sleeping for 500 milliseconds
+:Sending Pointer ACTION_MOVE x=3.0 y=-2.0
+:Sending Pointer ACTION_MOVE x=1.0 y=4.0
+:Sending Pointer ACTION_MOVE x=-1.0 y=-5.0
+:Sending Pointer ACTION_MOVE x=0.0 y=-4.0
+:Sending Pointer ACTION_MOVE x=-5.0 y=2.0
+:Sending Pointer ACTION_MOVE x=4.0 y=-3.0
+:Sending Pointer ACTION_MOVE x=3.0 y=1.0
+:Sending Pointer ACTION_MOVE x=2.0 y=3.0
+:Sending Pointer ACTION_MOVE x=-1.0 y=-5.0
+:Sending Pointer ACTION_MOVE x=-5.0 y=3.0
+:Sending Pointer ACTION_DOWN x=0.0 y=0.0
+:Sending Pointer ACTION_UP x=0.0 y=0.0
+Sleeping for 500 milliseconds
+:SendKey (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:SendKey (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 500 milliseconds
+:Sending Pointer ACTION_DOWN x=304.0 y=416.0
+:Sending Pointer ACTION_UP x=304.0 y=416.0
+Sleeping for 500 milliseconds
+:SendKey (ACTION_DOWN): 48    // KEYCODE_T
+:SendKey (ACTION_UP): 48    // KEYCODE_T
+Sleeping for 500 milliseconds
+:SendKey (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:SendKey (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 500 milliseconds
+:Sending Pointer ACTION_DOWN x=116.0 y=393.0
+:Sending Pointer ACTION_UP x=116.0 y=393.0
+Sleeping for 500 milliseconds
+:SendKey (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:SendKey (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 500 milliseconds
+:SendKey (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:SendKey (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 500 milliseconds
+:SendKey (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:SendKey (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 500 milliseconds
+:Sending Pointer ACTION_MOVE x=2.0 y=-4.0
+:Sending Pointer ACTION_MOVE x=-4.0 y=-4.0
+:Sending Pointer ACTION_MOVE x=1.0 y=-3.0
+:Sending Pointer ACTION_MOVE x=4.0 y=-1.0
+:Sending Pointer ACTION_MOVE x=4.0 y=-1.0
+:Sending Pointer ACTION_MOVE x=-3.0 y=4.0
+:Sending Pointer ACTION_MOVE x=-1.0 y=-3.0
+:Sending Pointer ACTION_MOVE x=-2.0 y=2.0
+:Sending Pointer ACTION_MOVE x=-5.0 y=-5.0
+:Sending Pointer ACTION_MOVE x=3.0 y=4.0
+:SendKey (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:SendKey (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 500 milliseconds
+:SendKey (ACTION_DOWN): 45    // KEYCODE_Q
+:SendKey (ACTION_UP): 45    // KEYCODE_Q

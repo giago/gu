@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:a="http://schemas.android.com/apk/res/android"
+	style="@style/FillHorizontaly">
+
+	<LinearLayout
+		style="@style/FillHorizontaly.VerticalOrientation"
+		a:padding="5dp">
+		<LinearLayout
+			style="@style/Wrap"
+			a:gravity="center_horizontal">
+			<RelativeLayout
+				style="@style/Wrap">
+				<ImageView
+					a:id="@+id/lalla_image"
+					style="@style/Wrap"
+					a:src="@drawable/lalla"
+					a:layout_margin="10dp" />
+				<TextView
+					style="@style/Wrap"
+					a:text="@string/lalla_description"
+					a:layout_below="@id/lalla_image"
+					a:padding="10dp" />
+			</RelativeLayout>
+			<RelativeLayout
+				style="@style/Wrap">
+				<ImageView
+					a:id="@+id/luigi_image"
+					style="@style/Wrap"
+					a:src="@drawable/luigi"
+					a:layout_margin="10dp" />
+				<TextView
+					style="@style/Wrap"
+					a:text="@string/luigi_description"
+					a:layout_below="@id/luigi_image"
+					a:padding="10dp" />
+			</RelativeLayout>
+			<RelativeLayout
+				style="@style/Wrap">
+				<ImageView
+					style="@style/Wrap"
+					a:id="@+id/andrea_image"
+					a:src="@drawable/andrea"
+					a:gravity="center"
+					a:layout_margin="10dp" />
+				<TextView
+					style="@style/Wrap"
+					a:text="@string/andrea_description"
+					a:layout_below="@id/andrea_image"
+					a:padding="10dp" />
+			</RelativeLayout>
+		</LinearLayout>
+		<TextView
+			a:id="@+id/info_description"
+			style="@style/Wrap"
+			a:text="@string/info_description"
+			a:padding="10dp"
+			a:gravity="center_horizontal" />
+         <TextView
+            a:id="@+id/info_description"
+            style="@style/Wrap"
+            a:text="@string/info_description_service"
+            a:padding="10dp"
+            a:gravity="center_horizontal" />
+	</LinearLayout>
+</ScrollView>

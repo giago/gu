@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+   xmlns:a="http://schemas.android.com/apk/res/android">
+   <LinearLayout
+      a:layout_width="fill_parent"
+      a:layout_height="58dp"
+      a:background="@drawable/bg_header"
+      a:gravity="center_vertical"
+      a:orientation="horizontal">
+      <EditText
+            a:id="@+id/search_term"
+            a:layout_width="0dp"
+            a:layout_height="fill_parent"
+            a:layout_weight="8"
+            a:hint="what?"
+            a:singleLine="true"
+            a:selectAllOnFocus="true"
+            a:layout_marginLeft="2dp"
+            a:layout_marginTop="3dp"
+            a:layout_marginRight="2dp" 
+            a:layout_marginBottom="1dp" />
+         <Button
+            a:id="@+id/search_submit"
+            style="@style/Wrap.ButtonText"
+            a:layout_width="0dp"
+            a:layout_weight="2"
+            a:text="Search"
+            a:paddingTop="11dp"
+            a:paddingBottom="13dp"
+            a:background="@drawable/bar_button"
+            a:layout_margin="2dp" />
+   </LinearLayout>
+</merge>

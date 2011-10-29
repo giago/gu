@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+   xmlns:a="http://schemas.android.com/apk/res/android"
+   style="@style/FillHorizontaly.VerticalOrientation">
+   <LinearLayout
+      style="@style/Fill.VerticalOrientation">
+      <include
+         layout="@layout/action_bar" />
+      <ListView
+         a:id="@+id/result_list"
+         a:smoothScrollbar="true"
+         style="@style/Fill" />
+      <ListView
+         a:id="@+id/activity_search_terms_list"
+         style="@style/Fill" />
+   </LinearLayout>
+</merge>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="blue">#5E8FDD</color>
+    <color name="green">#BAD8CC</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    
+    <color name="siteVisited">#72419F</color>
+    <color name="siteNotVisited">#5E8FDD</color>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+   xmlns:a="http://schemas.android.com/apk/res/android"
+   style="@style/FillHorizontaly"
+   a:layout_height="50dp"
+   a:gravity="center"
+   a:id="@+id/footer">
+   <ProgressBar
+      a:id="@android:id/progress"
+      a:layout_width="wrap_content"
+      a:layout_height="wrap_content"
+      a:padding="5dp"
+      style="?android:attr/progressBarStyleSmall"
+      a:visibility="visible"/>
+   <TextView 
+      a:text="loading ..."
+      a:gravity="center"
+      a:padding="5dp"
+      a:layout_width="wrap_content"
+      a:layout_height="wrap_content"/>
+</LinearLayout>
+   

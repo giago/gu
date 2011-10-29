@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+   xmlns:a="http://schemas.android.com/apk/res/android"
+   style="@style/FillHorizontaly"
+   a:layout_height="50dp"
+   a:gravity="center_vertical">
+   <TextView
+      a:id="@+id/list_item_result_title"
+      style="@style/FillHorizontaly"
+      a:textSize="20sp" 
+      a:padding="10dp"/>
+</RelativeLayout>

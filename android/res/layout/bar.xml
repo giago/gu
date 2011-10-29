@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+   xmlns:a="http://schemas.android.com/apk/res/android">
+   <LinearLayout
+      a:layout_width="fill_parent"
+      a:layout_height="58dp"
+      a:background="@drawable/bg_header"
+      a:gravity="center_vertical"
+      a:orientation="horizontal">
+      <TextView 
+      	a:layout_width="wrap_content"
+      	a:layout_height="fill_parent"
+      	a:text="@string/feedbaksListTitle"
+      	a:textColor="@color/white"/>   
+   </LinearLayout>
+</merge>

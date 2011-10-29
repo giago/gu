@@ -1,0 +1,1 @@
+db shell monkey -p org.chickymate.gu -s 1  --throttle 500 -v -v --monitor-native-crashes  --kill-process-after-error 10000000
