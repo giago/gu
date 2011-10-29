@@ -1,17 +1,26 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 	<head>
-		<jsp:include page="/fragments/da.css"/>
 		<title>Gu android application</title>
 		<meta name="description" content="Gu android application">
 		<meta name="google-site-verification" content="_2xl145Mddf4kPSbu7T3WlLme2wN1QPZusLJGgMefZ8" >
 		<jsp:include page="/fragments/facebook-meta.jsp"/>
 		<jsp:include page="/fragments/style.css"/>
+		<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
 	</head>
 	<body>
 		<div id="header">
 			<jsp:include page="/fragments/header-info.jsp"/>
 			<div id="menu">
+				<div id="menu-btn">
+					<a href="http://twitter.com/share" class="twitter-share-button" data-url="http://android-gu.appspot.com/" data-text="Gu for android" data-count="horizontal" data-via="Giago">Tweet</a>  
+				</div>
 				<div id="menu-btn">
 					<a href="/more.jsp">More</a>
 				</div>
@@ -24,16 +33,6 @@
 				<div class="sentence">
 					Gu is a small app that is aming to make the usability of searches and the navigation of the results
 					more close to what android users are used to with native applications.
-				</div>
-				<div class="sentence">
-					To install the app you can search "Google Usable search" or go to the android market :
-				</div>
-				<div class="sentence">
-					<button type="button" class="btn"
-						onclick="window.location.href='https://market.android.com/details?id=org.chickymate.gu';">
-						<span><span>Android Market</span></span>
-					</button>
-					<img src="http://chart.apis.google.com/chart?chs=250x250&amp;cht=qr&amp;chl=https://market.android.com/details?id=org.chickymate.gu" title="File download URL">
 				</div>
 				<div class="title">What you get with the application?</h2></div>
 				<div class="sentence">
@@ -57,5 +56,9 @@
 		<jsp:include page="/fragments/ads.jsp"/>
 		<jsp:include page="/fragments/footer.jsp"/>
 		<jsp:include page="/fragments/analytics.jsp"/>
+		<div style="position: absolute; top: 150; right: 150; border: 0;">
+			<g:plusone size="medium"></g:plusone>
+		</div>
+                <a id="github" href="https://github.com/giago/gu"><img style="position: absolute; top: 0; right: 0; border: 0;" src="images/ribbon.png" alt="Fork me on GitHub"></a>
 	</body>
 </html>
