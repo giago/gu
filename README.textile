@@ -6,3 +6,7 @@ The idea was to implement a better native ui for android instead of using the br
 h2. Notes
 
 Please do not use this code straight away, need to be check has is a prototype and is old.
+
+h2. Website
+
+"go to the website to try the app":http://android-gu.appspot.com/
